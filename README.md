@@ -6,6 +6,7 @@ A decentralized exchange (DEX) is a peer-to-peer marketplace where transactions 
 In the PBA 2022 end-term project, I intend to implement a simple multi-token DEX through a simple multi-asset pallet.
 
 ## 2. Approach
+I wanted to start with substrate-node-template, and then create my custom pallets to implement the DEX. 
 ### Tokens
 Tokens are assets, and is supposed to be implemented as:
 ```
@@ -43,4 +44,4 @@ Instead of tokens, I imagined the marketplace to be a place to trade exam scores
 Nothing was implement due to a lack of time from a lot of factors, ranging from urgent matters from back home to not being able to compile the code on my M1 machine. 
 
 ## 5. Learnings
-I learned a lot from this exercise, just by going through the painful process of writing custom pallets and reading others' code. 
+I learned a lot from this exercise, just by going through lecture notes, the painful process of writing custom pallets, and reading others' code. 
